@@ -1,0 +1,51 @@
+@-ms-viewport {
+    width: device-width; }
+
+
+body{
+ background-image: url("../asset/stars-1920x1080.jpg");
+    color: aliceblue;
+}
+
+
+
+
+.earth{
+    height: 950px;
+    max-width: auto;
+    background-image: url("../asset/earth.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+
+}
+
+.moon{
+    height: 950px;
+    max-width: auto;
+    background-image: url("../asset/moon.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+.mid_page{
+    height: 950px;
+
+}
+
+.vertical{
+    border-left: 1px solid grey;
+    display: block;
+  height: 955px;
+  position: absolute;
+  left: 50%;
+  margin-left: -3px;
+  top: 0;
+}
+
+container-fluid .card{
+    background-color: black;
+}
