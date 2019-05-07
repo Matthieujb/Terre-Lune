@@ -1,13 +1,30 @@
-@-ms-viewport {
-    width: device-width; }
+@media (min-width: 576px) {}
 
+
+@media (min-width: 768px) {  }
+
+
+@media (min-width: 992px) {  }
+
+
+@media (min-width: 1200px) { }
 
 body{
  background-image: url("../asset/stars-1920x1080.jpg");
+ background-size: cover;
+ background-repeat: repeat;
     color: aliceblue;
+
 }
 
+.logohead{
+height: 3rem;
+width: 3rem;
+}
 
+h2{
+    text-align: center;
+}
 
 
 .earth{
@@ -32,20 +49,19 @@ body{
 }
 
 .mid_page{
-    height: 950px;
+    height: 750px;
 
 }
 
 .vertical{
-    border-left: 1px solid grey;
+    border-left: 3px solid white;
     display: block;
-  height: 955px;
+  height: 1200px;
   position: absolute;
   left: 50%;
   margin-left: -3px;
-  top: 0;
 }
 
-container-fluid .card{
+ .card{
     background-color: black;
 }
