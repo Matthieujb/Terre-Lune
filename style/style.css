@@ -13,7 +13,7 @@ body{
  background-image: url("../asset/stars-1920x1080.jpg");
  background-size: cover;
  background-repeat: repeat;
-color: aliceblue;
+color: whitesmoke;
 
 }
 
@@ -43,7 +43,7 @@ h2{
 
 
 .earth{
-    height: 850px;
+    height: 70rem;
     max-width: auto;
     background-image: url("../asset/earth.jpg");
     background-size: 100%;
@@ -53,21 +53,13 @@ h2{
 
 }
 
-.moon{
-    height: 850px;
-    max-width: auto;
-    background-image: url("../asset/moon.jpg");
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    text-align: center;
-}
+
+/*Centre de ma Page */
 
 .mid_page{
-    max-height: 850px;
+
+    height: 70rem;
     
-
-
 }
 
 .moncercle{
@@ -90,8 +82,8 @@ h2{
   }
 
 .vertical{
-    border-left: 1px solid #f7f7f7;
-    height: 120rem;
+    border-left: 3px solid #f7f7f7;
+    height: 126rem;
     position: absolute;
     left: 50%;
     margin-left: -3px;
@@ -99,9 +91,21 @@ h2{
 
  .card{
     background-color: black;
-    margin: 3rem;
+    margin: 2rem;
 }
 
+/*Bas De Page */
+
+.moon{
+    height: 65rem;
+    max-width: auto;
+    background-image: url("../asset/moon.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+
+}
 
 
 .cnes{

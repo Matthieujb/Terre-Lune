@@ -1,4 +1,17 @@
+@media (min-width: 576px) { }
+
+
+@media (min-width: 768px) {  }
+
+
+@media (min-width: 992px) {  }
+
+
+@media (min-width: 1200px) { }
+
 /* navbar */
+
+
 .logohead{
     height: 3rem;
      width: 3rem;
