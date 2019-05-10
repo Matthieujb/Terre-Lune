@@ -1,10 +1,12 @@
-
-
-
+/* navbar */
 .logohead{
     height: 3rem;
-    width: 3rem;
+     width: 3rem;
     }
 
- 
+.toppage{
+    font-family: 'Orbitron', sans-serif;
+    background-color: #f7f7f7;
+
     
+}   

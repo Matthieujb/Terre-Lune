@@ -17,12 +17,27 @@ color: aliceblue;
 
 }
 
+/* navbar */
 .logohead{
-height: 3rem;
-width: 3rem;
-}
+    height: 3rem;
+     width: 3rem;
+    }
 
+.toppage{
+
+    font-family: 'Orbitron', sans-serif;
+    background-color: #f7f7f7;
+
+    
+}       
+
+h1{
+    font-family: 'Orbitron', sans-serif;
+    margin: 2rem;
+   
+}
 h2{
+    font-family: 'Gugi', cursive;
     text-align: center;
 }
 
@@ -50,12 +65,33 @@ h2{
 
 .mid_page{
     max-height: 850px;
+    
+
 
 }
 
+.moncercle{
+    background: #f7f7f7;
+    border-radius:50%;
+    width:5rem;
+    height:5rem;
+    border:2px solid #f7f7f7;
+    margin-left: 48%;
+   
+  }
+
+.moncercle2{
+    background:#f7f7f7;
+    border-radius:50%;
+    width:5rem;
+    height:5rem;
+    border:2px solid #f7f7f7;
+    margin-left: 48%;
+  }
+
 .vertical{
-    border-left: 1px solid white;
-    height: 100rem;
+    border-left: 1px solid #f7f7f7;
+    height: 120rem;
     position: absolute;
     left: 50%;
     margin-left: -3px;
@@ -71,12 +107,17 @@ h2{
 .cnes{
     
     height: 10rem;
+    margin: 2rem;
 
 }
 
 .ecole{
     
     height: 10rem ;
+    margin: 2rem;
     
 }
 
+p{
+    font-family: 'Orbitron', sans-serif;
+}
