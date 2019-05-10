@@ -1,0 +1,78 @@
+.logohead{
+    height: 3rem;
+    width: 3rem;
+    }
+
+
+/* Body */
+
+main {
+    display: flex;
+}
+
+main p {
+    width: 88%;
+    text-align: center;
+}
+
+
+
+/* Slider */
+
+.slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 15px;
+    border-radius: 5px;
+    background : black;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: rgb(170, 90, 103);
+    cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: red;
+    cursor: pointer;
+}
+
+.slidecontainer {
+    width: 90%;
+    margin-right: 10%;
+    margin-top: 200px;
+}
+
+/* Text Slider */
+
+.slidecontainer p {
+    font-family: 'Orbitron', sans-serif;
+    text-align: left;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.instructions {
+    width: 100%;
+    font-family: 'Gugi', cursive;
+    font-size: 1.5rem;
+    margin-top: 200px;
+    margin-left: 100px;
+
+}
+
+.instructions h1 {
+    text-align: center;
+}

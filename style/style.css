@@ -1,4 +1,4 @@
-@media (min-width: 576px) {}
+@media (min-width: 576px) { }
 
 
 @media (min-width: 768px) {  }
@@ -13,7 +13,7 @@ body{
  background-image: url("../asset/stars-1920x1080.jpg");
  background-size: cover;
  background-repeat: repeat;
-    color: aliceblue;
+color: aliceblue;
 
 }
 
@@ -28,7 +28,7 @@ h2{
 
 
 .earth{
-    height: 950px;
+    height: 850px;
     max-width: auto;
     background-image: url("../asset/earth.jpg");
     background-size: 100%;
@@ -39,7 +39,7 @@ h2{
 }
 
 .moon{
-    height: 950px;
+    height: 850px;
     max-width: auto;
     background-image: url("../asset/moon.jpg");
     background-size: 100%;
@@ -49,19 +49,34 @@ h2{
 }
 
 .mid_page{
-    height: 750px;
+    max-height: 850px;
 
 }
 
 .vertical{
-    border-left: 3px solid white;
-    display: block;
-  height: 1200px;
-  position: absolute;
-  left: 50%;
-  margin-left: -3px;
+    border-left: 1px solid white;
+    height: 100rem;
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
 }
 
  .card{
     background-color: black;
+    margin: 3rem;
 }
+
+
+
+.cnes{
+    
+    height: 10rem;
+
+}
+
+.ecole{
+    
+    height: 10rem ;
+    
+}
+

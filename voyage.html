@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <link rel="shortcut icon" href="assets/img/favico.ico" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Terre / Lune - Le Voyage</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="/style/voyage.css">
+  
+</head>
+
+<body>
+    <head>
+        <!-- Nav Bar Invisible -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-dark fixed-top">
+          <img src="/asset/logo.png" alt="Logo" class="logohead">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="index.html"> TERRE/LUNE <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Introduction</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="space.html">Vue de l'espace'</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="voyage.html">Le voyage</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </head>
+
+    <main>
+
+        <div class="instructions">
+            <h1>Faisons le voyage ensemble : </h1> <br>
+            <p>A l’aide du slider, sélectionnez la vitesse que vous désirez pour faire le
+                voyage de la Terre à la Lune. Nous calculerons pour vous la durée du voyage et le mode de transport qui
+                correspond.</p>
+
+        </div>
+        <div class="slidecontainer">
+            <input type="range" min="10" max="5500" value="10" class="slider" id="myRange">
+            <p>Vitesse : <span id="demo"></span> km/h</p>
+            <p>Temps pour aller sur la Lune : <span id="time"></span></p>
+            <p>C'est <span id="means_of_transport"></span> qui fait le voyage à cette vitesse !</p>
+        </div>
+
+    </main>
+
+    <script src="js/voyage.js"></script>
+
+</body>
+
+</html>
