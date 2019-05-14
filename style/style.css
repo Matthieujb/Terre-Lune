@@ -26,9 +26,7 @@ color: whitesmoke;
 .toppage{
 
     font-family: 'Orbitron', sans-serif;
-    background-color: #f7f7f7;
-
-    
+    background-color: transparent;
 }       
 
 h1{
@@ -69,6 +67,7 @@ h2{
     height:5rem;
     border:2px solid #f7f7f7;
     margin-left: 48%;
+    
    
   }
 
@@ -79,11 +78,12 @@ h2{
     height:5rem;
     border:2px solid #f7f7f7;
     margin-left: 48%;
+    
   }
 
 .vertical{
     border-left: 3px solid #f7f7f7;
-    height: 126rem;
+    height: 124rem;
     position: absolute;
     left: 50%;
     margin-left: -3px;
